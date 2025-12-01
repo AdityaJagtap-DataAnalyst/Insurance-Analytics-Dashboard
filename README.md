@@ -28,19 +28,19 @@ This dashboard converts raw insurance data into actionable insights for decision
 
 ---
 
-## 📂 Data Used
-- Insurance dataset containing:  
-  - Policy numbers  
-  - Revenue details  
-  - Business type (New, Renewal, Cross Sell, Endorsement, Lapse)  
-  - Account executive information  
-  - Client revenue segmentation  
-  - Product groups (Fire, Liability, Marine, etc.)  
-  - Meetings and opportunity pipeline data  
-  - Income class segmentation  
+##  Data Used
+The dataset used in this project consists of 6 CSV files:
 
-Data cleaned & transformed using **SQL + Power Query**, then modeled in Power BI.
+- **Brokerage.csv** – Contains brokerage earnings, commission details, and revenue generated through brokerage.  
+- **Fees.csv** – Includes fee-related transactions such as policy charges, processing fees, and admin fees.  
+- **Individual Budgets.csv** – Stores budget allocation for each account executive or business unit.  
+- **Invoice.csv** – Contains invoice records including invoice amount, invoice type, and invoice dates.  
+- **Meeting.csv** – Tracks client meetings, number of meetings per executive, and engagement frequency.  
+- **Opportunity.csv** – Includes opportunity pipeline data such as opportunity stage, expected revenue, and business conversion potential.
 
+**Data Cleaning:** Excel  
+**Data Transformation:** SQL  
+**Visualization:** Power BI  
 ---
 
 ## 🔄 ETL Process
